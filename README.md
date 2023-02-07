@@ -1,2 +1,3 @@
 # MRS
-![mrs](https://user-images.githubusercontent.com/72629283/217267879-01bec1e2-3474-4e97-9081-e83a5498d886.PNG)
+The movies are recommended based on a simple algorithm called Cosine Similarity. Cosine similarity is a measure used to determine the similarity between two items. Mathematically it can be determined as the cosine angle between two vectors in a three-dimensional plane. We can also check the Euclidean distance between the two vectors to determine how different or similar they are from each other. In our case, one of the vectors is the movie that is searched and the rest of the movies in the database are checked as the second vector. The top ten movies which have the least Euclidean distance corresponding to the searched movie are shown as recommendations.
+
